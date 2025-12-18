@@ -1,8 +1,35 @@
 # jitai-workflow
-Enterprise-level approval workflow engine providing complete workflow design, execution, and management capabilities, covering regular approval processes, approval services, process management, todo centers, and complete workflow ecosystem supporting complex approval logic and delegation mechanisms.
 
-Preparing for Open Source: Exciting things are coming soon.
+**Approval Workflow Framework for JitAI.**
 
-This repository is currently undergoing internal restructuring and code refinement to ensure we deliver a higher-quality codebase and comprehensive documentation upon our open-source release.
+[🇺🇸 English](README.md) | [🇨🇳 中文](README_ZH.md)
 
-Stay tuned! We will be sharing our work with the community very soon.
+---
+
+> ⚠️ **IMPORTANT NOTE**
+>
+> **jitai-workflow** is a framework application module of the JitAI platform and **cannot run independently**.
+>
+> For a complete development environment setup, please visit the **[jitai-team/quickstart](https://github.com/jitai-team/quickstart)** repository.
+
+---
+
+## ✨ Key Features
+
+- **Process Nodes**: Start node, approval node, condition branch node, parallel node, end node
+- **Approval Actions**: Submit, approve, reject, withdraw, transfer, add approver, return
+- **Field Permission Control**: Configure read/write permissions per node
+- **Approver Configuration**: Designated members, direct supervisor, department manager, role members
+- **Approval Page Customization**: Support for custom approval pages
+- **Business Integration**: Support for calling business logic elements and AI elements in approval workflows
+
+## 🆚 Community vs Enterprise
+
+| Feature Module | Capability | 🟢 Community Edition | 🔵 Enterprise Edition |
+| :--- | :--- | :---: | :---: |
+| **Regular Approval** | Approval Workflow Runtime | ✅ | ✅ |
+| | Visual Workflow Editor | ❌ | ✅ |
+
+## 🤝 Contributing
+
+We welcome contributions! Please refer to [quickstart](https://github.com/jitai-team/quickstart) to get started.
